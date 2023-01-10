@@ -1,0 +1,23 @@
+{
+    "name": "testing-javascript",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app/index.js",
+    "type": "module",
+    "scripts": {
+        "test": "mocha 'tests/*.js'"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/applethecandy/Testing-Javascript.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/applethecandy/Testing-Javascript/issues"
+    },
+    "homepage": "https://github.com/applethecandy/Testing-Javascript#readme",
+    "devDependencies": {
+        "mocha": "^10.2.0"
+    }
+}

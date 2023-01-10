@@ -1,4 +1,4 @@
-const solveQuadraticEquation = function(a, b, c) {
+export function solveQuadraticEquation(a, b, c) {
     let discriminant = b * b - 4 * a * c;
     let root1, root2;
 
