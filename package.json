@@ -20,6 +20,7 @@
     "homepage": "https://github.com/applethecandy/Testing-Javascript#readme",
     "devDependencies": {
         "coveralls": "^3.1.1",
+        "grunt-coveralls": "^2.0.0",
         "mocha": "^10.2.0",
         "mocha-lcov-reporter": "^1.3.0"
     },
