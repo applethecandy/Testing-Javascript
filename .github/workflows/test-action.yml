@@ -20,3 +20,7 @@ jobs:
         run: npm install
       - name: "Run Test"
         run: mocha tests/*.js
+      - name: Coveralls
+        uses: coverallsapp/github-action@master
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
