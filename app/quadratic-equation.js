@@ -8,7 +8,7 @@ export function solveQuadraticEquation(a, b, c) {
     } else if (discriminant == 0)
         root1 = root2 = -b / (2 * a);
     else
-        return [];
+        return [1];
 
     return [root1, root2];
 }
